@@ -69,7 +69,7 @@ class SerialFake:
     def close(self):
         self.is_open = False
 
-def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False):
+def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False, debug=False):
     # Configuração da porta serial
     try:
         if usar_mock:
@@ -90,30 +90,48 @@ def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False):
         
         padrao = re.compile(r'i.\s+(\d{11})')
 
-        # Buffer para acumular os dados
         buffer = ""
         ultimo_peso = 0
         peso_estabilizado = None
         tempo_ultima_exibicao = time.monotonic()
         tempo_estabilizacao = time.monotonic()
+        tempo_ultimo_buffer_limpo = time.monotonic()
         
         print("Lendo dados da balança. Pressione Ctrl+C para encerrar...")
         
         while True:
+
+            agora = time.monotonic()
+
+            if len(buffer) > 0 and agora - tempo_ultimo_buffer_limpo > 5.0:
+                if debug:
+                    print(f"DEBUG: Limpando buffer por timeout: '{buffer}'")
+
+                buffer = ""
+                tempo_ultimo_buffer_limpo = agora
+                ser.reset_input_buffer()
+
             if ser.in_waiting > 0:
-                # Lê um caractere por vez
+
                 char = ser.read(1).decode('ascii', errors='replace')
                 
-                # Se for retorno de carro, imprime o buffer e limpa
+                if ord(char) < 32 and char != '\r':
+                    if debug and char != '\n':
+                        print(f"DEBUG: Ignorando caractere inválido: {ord(char)}")
+                    continue
+
                 if char == '\r':
-                    print(f"DEBUG: Buffer recebido antes do parse: '{buffer}'") #DEBUG
+                    if debug:
+                        print(f"DEBUG: Buffer recebido antes do parse: '{buffer}'") #DEBUG
+                    
+
                     match = padrao.search(buffer)
                     if match:
                         valor_numerico = match.group(1)
                         peso_kg = int(valor_numerico[:5])
-                        agora = time.monotonic()
 
-                        print(f"DEBUG: Match encontrado! Valor: {valor_numerico}, Peso extraído: {peso_kg} kg") #DEBUG
+                        if debug:
+                            print(f"DEBUG: Match encontrado! Valor: {valor_numerico}, Peso extraído: {peso_kg} kg") #DEBUG
                         if peso_kg != ultimo_peso:
                             print(f"Leitura alterada: [{valor_numerico}] Peso: {peso_kg} kg")
                             ultimo_peso = peso_kg
@@ -121,20 +139,28 @@ def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False):
                             tempo_estabilizacao = agora
                         else:
                             tempo_decorrido = agora - tempo_estabilizacao
-                            print(f"DEBUG: Peso igual ({peso_kg} kg). Tempo desde mudança: {tempo_decorrido:.2f}s. Último estabilizado: {peso_estabilizado}") #DEBUG
+                            if debug:
+                                print(f"DEBUG: Peso igual ({peso_kg} kg). Tempo desde mudança: {tempo_decorrido:.2f}s. Último estabilizado: {peso_estabilizado}") #DEBUG
                             if tempo_decorrido >= 3:
                                 if peso_estabilizado != peso_kg:
                                     peso_estabilizado = peso_kg
                                     print(f"Peso estabilizado: {peso_estabilizado} kg")
-                                else:
+                                elif debug:
                                     print(f"DEBUG: Peso {peso_kg} kg já foi marcado como estável anteriormente.") #DEBUG
-                    else:
+                    elif debug:
                         print(f"DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '{buffer}'") #DEBUG
-                        
+
                     buffer = ""
+                    tempo_ultimo_buffer_limpo = agora
                 else:
-                    buffer += char
+                    if ord(char) >= 32 and ord(char) <= 126:    
+                        buffer += char
                     
+                    if len(buffer) > 50:
+                        if debug:
+                            print(f"DEBUG: Buffer muito grande, limpando: '{buffer}'")
+                        buffer = ""
+                        tempo_ultimo_buffer_limpo = agora
             time.sleep(0.01)
             
     except serial.SerialException as e:
@@ -150,5 +176,6 @@ if __name__ == "__main__":
     porta = "COM3"  #"dados_balanca.txt" #COM3
     baudrate = 4800
     usar_mock = False
+    debug = True
     
-    ler_balanca_simples(porta, baudrate, usar_mock)
+    ler_balanca_simples(porta, baudrate, usar_mock, debug)

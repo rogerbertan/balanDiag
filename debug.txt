@@ -1,0 +1,207 @@
+DEBUG COM MOCK
+
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+Leitura alterada: [18680000000] Peso: 18680 kg
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 0.50s. Último estabilizado: None
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 0.99s. Último estabilizado: None
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 1.48s. Último estabilizado: None
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 1.97s. Último estabilizado: None
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 2.46s. Último estabilizado: None
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 2.97s. Último estabilizado: None
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 3.47s. Último estabilizado: None
+Peso estabilizado: 18680 kg
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 3.97s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 4.46s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 4.97s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 5.46s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 5.95s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 6.44s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 6.94s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 7.44s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 7.94s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 8.43s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i0  18680000000'
+DEBUG: Match encontrado! Valor: 18680000000, Peso extraído: 18680 kg
+DEBUG: Peso igual (18680 kg). Tempo desde mudança: 8.93s. Último estabilizado: 18680
+DEBUG: Peso 18680 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: 'i8  15010000000'
+DEBUG: Match encontrado! Valor: 15010000000, Peso extraído: 15010 kg
+Leitura alterada: [15010000000] Peso: 15010 kg
+DEBUG: Buffer recebido antes do parse: 'i8  15010000000'
+DEBUG: Match encontrado! Valor: 15010000000, Peso extraído: 15010 kg
+DEBUG: Peso igual (15010 kg). Tempo desde mudança: 0.49s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i8  15010000000'
+DEBUG: Match encontrado! Valor: 15010000000, Peso extraído: 15010 kg
+DEBUG: Peso igual (15010 kg). Tempo desde mudança: 0.98s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i8  15010000000'
+DEBUG: Match encontrado! Valor: 15010000000, Peso extraído: 15010 kg
+DEBUG: Peso igual (15010 kg). Tempo desde mudança: 1.48s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i8  15010000000'
+DEBUG: Match encontrado! Valor: 15010000000, Peso extraído: 15010 kg
+DEBUG: Peso igual (15010 kg). Tempo desde mudança: 1.97s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i8  15010000000'
+DEBUG: Match encontrado! Valor: 15010000000, Peso extraído: 15010 kg
+DEBUG: Peso igual (15010 kg). Tempo desde mudança: 2.45s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i8  14170000000'
+DEBUG: Match encontrado! Valor: 14170000000, Peso extraído: 14170 kg
+Leitura alterada: [14170000000] Peso: 14170 kg
+DEBUG: Buffer recebido antes do parse: 'i8  09860000000'
+DEBUG: Match encontrado! Valor: 09860000000, Peso extraído: 9860 kg
+Leitura alterada: [09860000000] Peso: 9860 kg
+DEBUG: Buffer recebido antes do parse: 'i8  07130000000'
+DEBUG: Match encontrado! Valor: 07130000000, Peso extraído: 7130 kg
+Leitura alterada: [07130000000] Peso: 7130 kg
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+Leitura alterada: [00000000000] Peso: 0 kg
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 0.50s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 0.99s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 1.48s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 1.97s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 2.47s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 2.96s. Último estabilizado: 18680
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 3.46s. Último estabilizado: 18680
+Peso estabilizado: 0 kg
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 3.95s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+
+DEBUG COM SERIAL
+
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 64.18s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: ☻i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 64.37s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: ☻i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 64.57s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: ☻i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 64.76s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: ☻i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 64.96s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Buffer recebido antes do parse: ☻i0  0000000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: ☻i0  0000000'
+DEBUG: Buffer recebido antes do parse: '☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i00☻i 00☻i0 00☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i00☻i 00☻i0 00☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00'
+DEBUG: Buffer recebido antes do parse: '☻i 00☻i0 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00☻i0 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 0☻i 00☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 0☻i 00☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 00☻i0000☻i0000☻i 0☻i 00☻i0 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 00☻i0000☻i0000☻i 0☻i 00☻i0 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i00☻i 0☻i 0☻i000☻i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i00☻i 0☻i 0☻i000☻i0 00'
+DEBUG: Buffer recebido antes do parse: '☻i0000☻i0 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i0000☻i0 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i00☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i00☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 00☻i0000☻i0000☻i00☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 00☻i0000☻i0000☻i00☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i00☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i00☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 00☻i0 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 00☻i0 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 00☻i0000☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 00☻i0000☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 00☻i0 00☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00☻i0 00☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i0000☻i0 0☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i0000☻i0 0☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i000☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i000☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 0☻i 00☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 00☻i0000☻i0000☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 00☻i0000☻i0000☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 0☻i 0☻i 00☻i0 0☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 0☻i 0☻i 00☻i0 0☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i00☻i 0☻i 0☻i 00☻i0000☻i0000☻i0000☻i 0☻i0000☻i0 00☻i0 0☻i0000☻i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i00☻i 0☻i 0☻i 00☻i0000☻i0000☻i0000☻i 0☻i0000☻i0 00☻i0 0☻i0000☻i000'
+DEBUG: Buffer recebido antes do parse: '☻i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00'
