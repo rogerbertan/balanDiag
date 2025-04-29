@@ -205,3 +205,1192 @@ DEBUG: Buffer recebido antes do parse: '☻i00☻i 0☻i 0☻i 00☻i0000☻i000
 DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i00☻i 0☻i 0☻i 00☻i0000☻i0000☻i0000☻i 0☻i0000☻i0 00☻i0 0☻i0000☻i000'
 DEBUG: Buffer recebido antes do parse: '☻i 00'
 DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '☻i 00'
+
+
+DEBUG APOS VALIDAÇOES
+
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 61.47s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 61.64s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 61.82s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  000000000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  000000000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0 000i0000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0 000i0000i0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i0000i0000i0  000i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i0000i0000i0  000i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i00000i 00i0000i0  000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i00000i 00i0000i0  000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i0000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i0000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0 000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0 000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0 00i0 00i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0 00i0 00i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i0 00i0 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i0 00i0 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i 00i00000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i 00i00000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i0  00i 00i 00i0  000i0000i00000i 00i0000i000000i00'
+DEBUG: Buffer recebido antes do parse: '0'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '0'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i0  00i0000i0000i0  00i 00i 000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i0  00i0000i0000i0  00i 00i 000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0000i00000i 00i 00i0 000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0000i00000i 00i 00i0 000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i 00i0000i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i 00i0000i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i0 00i0000i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i0 00i0000i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i00000i0 00i0 00i000000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i00000i0 00i0 00i000000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i0 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i0 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0 00i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0 000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0 000i0000i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i 00i0  00i0000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i 00i0  00i0000i0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0 00i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0 00i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0 000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0 000i0000i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0000i0  000i000i 00i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0000i0  000i000i 00i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00i0 0000i 00i0 00i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00i0 0000i 00i0 00i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i0 000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i0 000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i0000i0000i00000i 00i 00i0  000i000i 00i0  000i0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00i 00i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00i 00i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i0  00i0 00i 0000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i0  00i0 00i 0000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0000i0  000i0 00i0 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0000i0  000i0 00i0 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0 00i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0 00i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i 00i0  00i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i 00i0  00i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0 00i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0 00i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i 00i 0000i0000i0000i0  00i 00i 00i0  000i0000i0000'
+DEBUG: Buffer recebido antes do parse: '0'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '0'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i 0000i0000i0000i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i 0000i0000i0000i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  00i0 00i000000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  00i0 00i000000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i0 00i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i0 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  00i0000i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  00i0000i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i0 00i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i0 00i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i 00i 0000i0000i0000i0  00i 00i 00i0  000i0000i0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: '0i 00i 00i 0000i0 00i0000i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '0i 00i 00i 0000i0 00i0000i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  000i0000i00000i 00i 00i000000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  000i0000i00000i 00i 00i000000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i0 00i0 00i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i0 00i0 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i 00i0000i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i 00i0000i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i 00i  000i0000i0 00i0  000i0000i0 0000i0000i0000i0'
+DEBUG: Buffer recebido antes do parse: '  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  000i0000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  000i0000i0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0000i00000i 00i 00i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0000i00000i 00i 00i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0000i0  000i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0000i0  000i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i0000i0  000i0000i00000i 00i 00i000000i0000i0000i0 '
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: ' 000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: ' 000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i0 00i 00i000000i0000i0000i  000i 00i 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: '0i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '0i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i0 00i 00i 0000i0 00i0000i0  00i 00i 00i0  00i0000i'
+DEBUG: Buffer recebido antes do parse: '0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i00000i 00i 00i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i00000i 00i 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i0 00i 000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i0 00i 000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0000i 0000i0 00i0000i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0000i 0000i0 00i0000i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i0000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i0000i0000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0000i00000i 00i 00i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0000i00000i 00i 00i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i0 000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i0 000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i 00i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i 00i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0 000i0000i0000i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0 000i0000i0000i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 0000i0 00i 00i000000i0000i0000i0  00i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 0000i0 00i 00i000000i0000i0000i0  00i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  000i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  000i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i00000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i00000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i0  00i 00i 00i0  000i0000i00000i 00i 00i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: '0i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '0i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i0 00i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i0 00i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0 00i0000i000000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0 00i0000i000000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  00i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  00i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  00i0000i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  00i0000i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 0000i0 00i0 00i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 0000i0 00i0 00i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00i 00i 0000i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00i 00i 0000i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i 00i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00i0  000i0000i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00i0  000i0000i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i 0000i0 00i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i 0000i0 00i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000i0  00i0000i000000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000i0  00i0000i000000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i  000i 00i0 00i0  000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i  000i 00i0 00i0  000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i0 0000i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i0 0000i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer muito grande, limpando: 'i 00i0  00i000i0 00i0  000i0000i00000i 00i0 00i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: '00i0000i0000i0  00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: '00i0000i0000i0  00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i0000i000000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i0000i000000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i 00i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i 00i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i00000i 00i 00i0  000i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i00000i 00i 00i0  000i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00i 00i00000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  00i 00i00000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000000i0 00i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000000i0 00i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  000i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0  000i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i  00i0 00i0  000i0  000i0 0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i  00i0 00i0  000i0  000i0 0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i00000i0  00i0  00i0  00i0 000i0 000i0 000i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i00000i0  00i0  00i0  00i0 000i0 000i0 000i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 00i0 00i0  000i00000i00000i00000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 00i0 00i0  000i00000i00000i00000i0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i 000i 000i00000i0 000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i 000i 000i00000i0 000i0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i  00i0 000i0 000i0 000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i  00i0 000i0 000i0 000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0 0000i0 000i0 000i0 000i00000i0000'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i0 0000i0 000i0 000i0 000i00000i0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i  00i 000i0 000i0 000i0 000i0 00'
+DEBUG: ATENÇÃO! Padrão regex não encontrado no buffer: 'i  00i 000i0 000i0 000i0 000i0 00'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Limpando buffer por timeout: 'i  00i0  0000i00000i00000i0000i 0000'
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 118.87s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 119.04s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 119.22s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 119.39s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2
+DEBUG: Buffer recebido antes do parse: 'i0  00000000000'
+DEBUG: Match encontrado! Valor: 00000000000, Peso extraído: 0 kg
+DEBUG: Peso igual (0 kg). Tempo desde mudança: 119.56s. Último estabilizado: 0
+DEBUG: Peso 0 kg já foi marcado como estável anteriormente.
+DEBUG: Ignorando caractere inválido: 8
+DEBUG: Ignorando caractere inválido: 2

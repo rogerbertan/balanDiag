@@ -1,7 +1,6 @@
 import serial
 import time
 import re
-import time
 import random
 
 class SerialFake:
@@ -24,10 +23,6 @@ class SerialFake:
 
     @property
     def in_waiting(self):
-        """
-        Simula in_waiting - retorna bytes disponíveis para leitura
-        Sempre retorna um valor positivo após um tempo para forçar novas leituras
-        """
         now = time.time()
         # Se passou tempo suficiente desde a última leitura completa
         if self.char_position >= len(self.current_line):
@@ -66,8 +61,20 @@ class SerialFake:
     def reset_output_buffer(self):
         pass
 
+    def write(self, data):
+        pass
+
     def close(self):
         self.is_open = False
+
+def extrair_peso(linha):
+    peso_str = linha[6:11]
+    peso = int(peso_str)
+
+    id_char = linha[2]
+    if id_char in ['z', 'r']:
+        peso *= -1
+    return peso
 
 def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False, debug=False):
     # Configuração da porta serial
@@ -79,12 +86,10 @@ def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False, debug=Fals
                 port=porta_serial,
                 baudrate=baudrate,
                 bytesize=serial.SEVENBITS,
-                parity=serial.PARITY_NONE,
+                parity=serial.PARITY_EVEN,
                 stopbits=serial.STOPBITS_ONE,
                 timeout=1
             )
-        ser.reset_input_buffer()
-        ser.reset_output_buffer()
 
         print(f"Conectado à porta {porta_serial}")
         
@@ -96,13 +101,13 @@ def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False, debug=Fals
         tempo_ultima_exibicao = time.monotonic()
         tempo_estabilizacao = time.monotonic()
         tempo_ultimo_buffer_limpo = time.monotonic()
+        tempo_ultimo_keepalive = time.monotonic()
+        tempo_ultima_reconexao = time.monotonic()
         
         print("Lendo dados da balança. Pressione Ctrl+C para encerrar...")
         
         while True:
-
             agora = time.monotonic()
-
             if len(buffer) > 0 and agora - tempo_ultimo_buffer_limpo > 5.0:
                 if debug:
                     print(f"DEBUG: Limpando buffer por timeout: '{buffer}'")
@@ -161,7 +166,7 @@ def ler_balanca_simples(porta_serial, baudrate=4800, usar_mock=False, debug=Fals
                             print(f"DEBUG: Buffer muito grande, limpando: '{buffer}'")
                         buffer = ""
                         tempo_ultimo_buffer_limpo = agora
-            time.sleep(0.01)
+            # time.sleep(0.01)
             
     except serial.SerialException as e:
         print(f"Erro na comunicação serial: {e}")
